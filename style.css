@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+table, table td {
+	padding:0;
+	border:0;
+	border-collapse:collapse;
+}
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{
+	display:block;
+}
+
+
+html{
+	min-width: 1000px;
+}
+html ,body{
+	height: 100%;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+/*header*/
+header .container{
+	height: 445px;
+	background: url(img/header-bg.jpg) no-repeat;
+	position: relative;
+	overflow: hidden;
+}
+header .container h1{
+	text-indent: -9999px;
+}
+header .container h1 a{
+	display: block;
+	width: 265px;
+	height: 65px;
+	background: url(img/logo.gif) no-repeat left top;
+	position: absolute;
+	left: 68px;
+	top: 20px;
+}
+header .container nav{
+	position: absolute;
+	top: 146px;
+	left: 20px;
+}
+header .container nav ul li{
+	width: 100%;
+	height: 35px;
+}
+header .container nav ul li a{
+	display: block;
+	width: 195px;;
+	height: 30px; 
+	font: norm 25px "微软雅黑";
+	line-height: 30px;
+	color: #fff;
+	border-radius: 10px;
+	text-align: center;
+}
+header .container nav ul li a:hover{
+	text-decoration: underline;
+}
+header .container nav ul li.current a{
+	background: url(img/nav-act.png) no-repeat;
+}
+header .container nav ul li.current a:hover{
+	text-decoration:none;
+}
+header .container .top_right{
+	position: absolute;
+	right: 416px;
+	top: 42px;
+	height: 17px;
+}
+header .container .top_right li{
+	float: left;
+	background: url(img/divider.gif) repeat-y right top;
+	padding: 2px 26px 3px 0;
+	margin-right: 15px;
+}
+header .container .top_right li#last{
+	background: none;
+}
+header .slogan{
+	position: absolute;
+	width: 174px;
+	height: 132px;
+	background: url(img/slogan.png) no-repeat;
+	left: 327px;
+	top: 172px;
+}
+
+
