@@ -120,10 +120,12 @@ section#content{
 #content .indent{
 	padding-bottom: 30px;
 }
+.col-1, .col-2, .col-3{
+	float: left;
+}
 #content .col-1{
 	width: 559px;
 	margin-right: 43px;
-	float: left;
 }
 .img-box{
 	width: 100%;
@@ -135,15 +137,15 @@ section#content{
 	float: left;
 	margin: -8px 16px 0 0;
 }
+
 .banners{
-	padding-top: 15px;
+	padding-top: 40px;
 }
 .banners li{
 	padding-bottom: 10px;
 }
 #content .col-2{
 	width: 264px;
-	float: left;
 }
 h2{
 	font-size: 30px;
@@ -237,6 +239,55 @@ footer .inside p a{
 }
 
 
+/*mission.html*/
+.list{
+	padding-bottom: 16px;
+}
+.list li{
+	background: url(img/marker.gif) no-repeat left 5px;
+	padding: 0 0 4px 11px;
+}
+.list li a{
+	text-decoration: underline;
+}
+.list li a:hover{
+	text-decoration: none;
+}
+#content .img-box .col-1{
+	width: 219px;
+	margin-right: 84px;
+}
+#content .img-box .col-2{
+	width: 207px;
+}
+
+/*news.html*/
+.news{
+	margin-top: -16px;
+}
+.news li{
+	width: 100%;
+	overflow: hidden;
+	line-height: 1.429em;
+	vertical-align: top;
+	padding-top: 40px;
+}
+.news li img{
+	float: left;
+	margin: -25px 18px 0 0;
+}
+.news li strong{
+	display: block;
+	font-size: .857em;
+	line-height: 1.2em;
+	padding-bottom: 3px;
+}
+
+/*work.html*/
+#content .col-3{
+	width: 258px;
+	margin-right: 42px;
+}
 
 
 
