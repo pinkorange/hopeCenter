@@ -107,8 +107,6 @@ header .slogan{
 section#content{
 	margin-top: -10px;
 	position: relative;
-	
-	/*background: yellow;*/
 }
 #content .inside{
 	padding: 0 0 142px 70px;
@@ -239,7 +237,7 @@ footer .inside p a{
 }
 
 
-/*mission.html*/
+/*任务*/
 .list{
 	padding-bottom: 16px;
 }
@@ -261,7 +259,7 @@ footer .inside p a{
 	width: 207px;
 }
 
-/*news.html*/
+/*新闻*/
 .news{
 	margin-top: -16px;
 }
@@ -283,14 +281,62 @@ footer .inside p a{
 	padding-bottom: 3px;
 }
 
-/*work.html*/
+/*工作*/
 #content .col-3{
 	width: 258px;
 	margin-right: 42px;
+	font-size: 14px;
+}
+#content .col-3 p{
+	margin-top: 20px;
 }
 
+/*研讨*/
+.seminars li{
+	height: 86px;
+	line-height: 1.429em;
+	background: url(img/icon-marker.gif) left top no-repeat;
+	padding: 0 0 26px 98px;
+}
+.seminars li.last{
+	padding-bottom: 0;
+}
+.seminars li strong{
+	display: block;
+	padding-right: 17px;
+}
 
-
-
-
-
+/*联系*/
+.contact input{
+	width: 264px;
+	height: 25px;
+	background: none;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	margin: 0 0 5px 20px;
+}
+.contact textarea{
+	width: 452px;
+	height: 383px;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	margin-left: 20px;
+	vertical-align: top;
+}
+.contact button{
+	color: #fff;
+	padding: 3px 3px;
+	border: 1px solid #e2e7ed;
+	background: #fff;
+	border-radius: 6px;
+	margin-top: 8px;
+	margin-left: 50%;
+	cursor: pointer;
+}
+.contact button a{
+	display: block;
+	padding: 2px 20px;
+	background: #17bbe7;
+	border-radius: 5px;
+	color: #fff;
+}
